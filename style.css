@@ -1,0 +1,614 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  width: 100%;
+  /* height: 100%; */
+  background-color: #161d30;
+}
+#page1 {
+  background-color: aquamarine;
+  height: 55vw;
+  width: 100%;
+  background-image: url(https://images.pexels.com/photos/2397651/pexels-photo-2397651.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-position: center;
+  background-size: cover;
+}
+#nav {
+  width: 100%;
+  height: 6vw;
+  background-color: #161d30;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25vw;
+  font-family: "Urbanist";
+  font-style: normal;
+}
+
+#nav #logo {
+  width: 6vw;
+  height: 4vw;
+  /* background-color: white; */
+  /* position: relative; */
+}
+#nav #logo img {
+  width: 100%;
+  height: 110%;
+  object-fit: cover;
+  z-index: -10;
+}
+#nav #navcontent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3vw;
+}
+#nav #navcontent {
+  color: #fff;
+  font-size: 18px;
+}
+#navcontent h4 {
+  cursor: pointer;
+}
+#navcontent h4:focus {
+  background-color:  #01aded;
+}
+#nav button {
+  width: 10vw;
+  height: 3vw;
+  background-color: #01aded;
+  border-radius: 100px;
+  border: none;
+  font-size: 16px;
+  color: #fff;
+}
+#home {
+  margin: 17% 20%;
+  width: fit-content;
+  height: fit-content;
+  font-family: "Impact";
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "techna sans";
+  text-align: center;
+  /* background-color: palevioletred; */
+}
+#home h1 {
+  font-size: 100px;
+  line-height: 8vw;
+}
+#home p {
+  margin: 2.5vw 0vw;
+  height: fit-content;
+  width: 40vw;
+  text-align: center;
+  font-size: 17px;
+  /* background-color: yellowgreen; */
+  font-family: "Urbanist";
+}
+.btn{
+  width: 12vw;
+  margin: 20px 0px;
+  padding: 20px 15px;
+  font-family: "Urbanist";
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #01aded;
+  border-radius: 100px;
+  border: none;
+  transition: all ease 0.4s;
+}
+.btn:hover{
+  scale: 1.05;
+}
+#wave{
+  position: absolute;
+  top: -60.5vw;
+  width: 100%;
+  height: 70%;
+}
+#page2{
+  height: 65vw;
+  /* background-color: #a52a2a; */
+  margin-top: 0vw;
+  margin-bottom: 0vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+}
+#page2 #eeko{
+  margin: 10vw 0vw;
+  margin-bottom: 0;
+  padding: 2vw 4vw;
+  /* background-color: pink; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4vw;
+  color: #fff;
+}
+#eeko #eeko1{
+  width: 45vw;
+  /* background-color: grey; */
+  padding: 2vw;
+}
+#eeko1 h1{
+  font-family: "techna sans";
+  padding: 1vw 0vw;
+  font-size: 60px;
+  line-height: 70px;
+}
+#eeko1 p{
+  font-family: "Urbanist";
+  font-size: 16px;
+}
+#eeko #eeko2{
+  /* background-color: gray; */
+  padding: 2.5vw 0vw;
+  padding-bottom: 1vw;
+  width: 27vw;
+  text-align: center;
+  line-height: 50px;
+  background: linear-gradient(#161d30, #161d30) padding-box, linear-gradient(to right, #01aded, #fff) border-box;
+  border-radius: 50em;
+  border: 4px solid transparent;
+}
+#eeko2 h1{
+  font-size: 60px;
+  font-family: "techna sans";
+}
+#eeko2 h5{
+  font-size: 16px;
+  font-family: "Urbanist";
+}
+#page2 #duko{
+  /* background-color: blue; */
+  width: 84vw;
+  height: 30vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#duko #imgcard{
+  background-color: lightsalmon;
+  width: 30vw;
+  height: 20vw;
+  border-radius: 20px;
+}
+#duko img{
+  width: 100%;
+  height: 100%;
+  border: 4px solid #01aded;
+  border-radius: 20px;
+}
+#duko #imgcard:hover{
+
+}
+#page2 #teeko{
+  /* background-color: yellow; */
+  color: #fff;
+  width: 84vw;
+  padding: 1vw 3vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#teeko h4{
+  width: 32vw;
+  /* background-color: lightgreen; */
+  font-family: "Urbanist";
+  font-size: 18px;
+  line-height: 25px;
+  padding: 0 2vw;
+  font-weight: 400;
+}
+#teeko #bullet h4{
+  line-height: 40px;
+}
+#teeko #bullet i{
+  color: #01aded;
+}
+#page3{
+  height: 55vw;
+  /* width: 100%; */
+  margin: 0 10vw;
+  /* background-color: burlywood; */
+
+}
+#page3 #threehead{
+  /* background-color: purple; */
+  padding-top: 8vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  width: 40vw;
+  color: #fff;
+}
+#page3 #threehead h1{
+  font-family: "techna sans";
+  font-size: 55px;
+  line-height: 60px;
+}
+#page3 #threehead p{
+  padding: 2vw 0;
+  font-family: "Urbanist";
+  font-size: 18px;
+}
+#page3 #threeCards{
+  /* background-color: lightblue; */
+  display: flex;
+  justify-content: space-between;
+  padding: 2vw 2vw;
+
+}
+#page3 .dets{
+  margin: 1vw;
+  border: 3px solid white;
+  border-radius: 20px;
+  height: 17.5vw;
+  font-family: "Urbanist";
+  text-align: center;
+  color: #fff;
+  transition: all ease 0.6s;
+}
+#page3 .dets h2{
+  margin-top: 7vw;
+  font-weight: 600;
+}
+#page3 .dets p{
+  padding: 1vw 1vw;
+  color: transparent;
+  transition: all ease 0.6s;
+} 
+#page3 .card:hover p{
+  color: #fff;
+}
+#page3 .dets h4{
+  text-decoration: underline;
+  text-decoration-color: #01aded;
+  text-decoration-thickness: 3px;
+  cursor: pointer;
+  transition: all ease 0.7s;
+}
+#page3 .dets h4:hover{
+  scale: 1.1;
+}
+#page3 #threeCards .card{
+  background-color: lightpink;
+  width: 17vw;
+  height: 20vw;
+  border-radius: 20px;
+}
+#page3 .card:hover .dets{
+  background-color: #00000064;
+}
+#page3 .one{
+  background-image: url(https://images.unsplash.com/photo-1595389910742-5b5c0e958a11?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fHN1cmZpbmd8ZW58MHwxfDB8fHwy);
+  background-size: cover;
+}
+#page3 .two{
+  background-image: url(https://images.pexels.com/photos/4666754/pexels-photo-4666754.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-size: cover;
+}
+#page3 .three{
+  background-image: url(https://images.pexels.com/photos/3113225/pexels-photo-3113225.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-size: cover;
+}
+#page3 .four{
+  background-image: url(https://images.pexels.com/photos/10498905/pexels-photo-10498905.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-size: cover;
+}
+#page3 #buttonf{
+  display: flex;
+  justify-content: center;
+}
+
+#page4{
+  margin: 0 15vw;
+  height: 60vw;
+  /* background-color: lightgreen; */
+}
+#page4 #pg4head{
+  /* background-color: paleturquoise; */
+  padding: 4vw 2vw;
+  /* width: 60vw; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#page4 #inhead{
+  color: #fff;
+  /* background-color: lightcoral; */
+  width: 35vw;
+}
+#pg4head #inhead h1{
+  font-family: "techna sans";
+  font-size: 55px;
+  line-height: 60px;
+}
+#pg4head #inhead p{
+  font-family: "Urbanist";
+  padding: 2vw 0;
+}
+#page4 #pic1{
+  /* background-color: orange; */
+  width: 100%;
+  height: 18vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4vw;
+}
+#page4 .pico{
+  height: 90%;
+  width: 20vw;
+  background-color: lightsteelblue;
+  border-radius: 20px;
+}
+#page4 .pico h2{
+  font-family: "Urbanist";
+  color: #fff;
+  padding-top: 13vw;
+  padding-left: 2vw;
+}
+#page4 #pic1 .aone{
+  background-image: url(https://images.pexels.com/photos/5901269/pexels-photo-5901269.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-size: cover;
+}
+#page4 #pic1 .atwo{
+  background-image: url(https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dW5kZXIlMjB0aGUlMjBzZWF8ZW58MHwwfDB8fHwy);
+  background-size: cover;
+  background-position: center;
+}
+#page4 #pic1 .athree{
+  background-image: url(https://images.pexels.com/photos/4816318/pexels-photo-4816318.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-size: cover;
+}
+#page4 #pic2 .bone{
+  background-image: url(https://images.pexels.com/photos/13010774/pexels-photo-13010774.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size: cover;
+}
+#page4 #pic2 .btwo{
+  background-image: url(https://images.pexels.com/photos/4621388/pexels-photo-4621388.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-size: cover;
+}
+#page4 #pic2 .bthree{
+  background-image: url(https://images.pexels.com/photos/7826551/pexels-photo-7826551.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-size: cover;
+}
+
+  #page4 #pic2{
+  /* background-color: orange; */
+  width: 100%;
+  height: 18vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4vw;
+}
+#page5{
+  margin: 4vw 10vw;
+  height: 30vw;
+  /* background-color: burlywood; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+#page5 #pg5div1{
+  /* background-color: aquamarine; */
+  height: 25vw;
+  width: 35vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+#page5 #pg5div1 h1{
+  font-family: "techna sans";
+  font-size: 55px;
+  line-height: 60px;
+  padding-top: 2vh;
+}
+#page5 #pg5div1 p{
+  font-family: "Urbanist";
+  font-size: 2.5vh;
+  padding: 2vw 0;
+}
+.bottom-main{
+  width: 100%;
+  height: 30%;
+  /* background-color: red; */
+  padding: 0 3vw 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  font-family: "urbanist";
+}
+.bottom-main h2 i{
+  color:#01aded
+}
+.bottom-left{
+  height: 100%;
+  /* background-color: lightblue; */
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+}
+.bottom-right{
+  height: 100%;
+  /* background-color: lightblue; */
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+}
+#page5 #pg5div2{
+  /* background-color: lemonchiffon; */
+  height: 25vw;
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#page5 #pg5div2 #nn{
+  background-color: lightcoral;
+  height: 18vw;
+  width: 15vw;
+  border-radius: 20px;
+  background-image: url(https://images.pexels.com/photos/6702676/pexels-photo-6702676.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-size: cover;
+  background-position: center;
+}
+
+#page5 #pg5div3{
+  /* background-color: lightblue; */
+  height: 25vw;
+  width: 20vw;
+  background-image: url(https://images.unsplash.com/photo-1517627043994-b991abb62fc8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c2N1YmElMjBkaXZlcnN8ZW58MHwxfDB8fHwy);
+  background-size: cover;
+  border-radius: 20px;
+}
+#page5 #page5div3 img{
+
+}
+
+
+
+#page6{
+  margin: 7vw 15vw;
+  height: 18vw;
+  width: 70vw;
+  color: #161d30;
+  background-color: #fff;
+  font-family: "techna sans";
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#page6 #ready{
+  /* background-color: pink; */
+  height: 10vw;
+  width: 40vw;
+
+}
+#page6 #ready h1{
+  font-size: 60px;
+  padding-bottom: 2vw ;
+}
+#page6 #ready p{
+  font-family: "Urbanist";
+  font-size: 18px;
+}
+
+#page7{
+  height: 28vw;
+  margin: 0 12vw;
+  font-family: "Urbanist";
+}
+#page7 #page7one{
+  /* background-color: peru; */
+  height: 20vw;
+  color: #fff;
+  display: flex;
+
+}
+#page7 #page7one #sone{
+  margin: 0 2vw;
+  height: 18vw;
+  /* background-color: purple; */
+  width: 20vw;
+}
+#page7one #sone img{
+  width: 8vw;
+  margin-top: 1vw;
+}
+#sone h3{
+  font-weight: 400;
+  padding: 1vw;
+  font-size: 18px;
+}
+#sone i{
+  cursor: pointer;
+  font-size: 25px;
+  padding: 0.5vw;
+  color: #666;
+}
+#sone i:hover{
+  color: #01aded;
+  transform: translateY(20px);
+}
+#page7one h2{
+  font-family: "techna sans";
+  padding: 2vw;
+  font-size: 28px;
+}
+#page7one h4{
+  font-size: 14;
+  font-weight: 500;
+  padding-left: 2vw;
+  padding-bottom: 1vw;
+  cursor: pointer;
+  width: fit-content;
+  /* background-color: lightsalmon; */
+}
+#page7one h4:hover{
+  color: #01aded;
+}
+#page7one #stwo{
+  margin: 0 2vw;
+  height: 18vw;
+  width: 15vw;
+  /* background-color: purple; */
+}
+
+#page7one #sthree{
+  margin: 0 2vw;
+  height: 18vw;
+  width: 15vw;
+  /* background-color: purple; */
+}
+#page7one #sfour{
+  margin: 0 2vw;
+  height: 18vw;
+  width: 15vw;
+  /* background-color: purple; */
+}
+
+#page7 #page7two{
+  /* background-color: peru; */
+  padding: 2vw;
+  height: 6vw;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  color: #fff;
+}
+
+#page7 #flef{
+  display: flex;
+  gap: 2vw;
+}
+#flef h3{
+  font-size: 16px;
+  font-weight: 600;
+
+}
+
+
